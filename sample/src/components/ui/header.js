@@ -16,6 +16,9 @@ const useStyles = makeStyles((theme) => ({
   tabContainer: {
     marginLeft: "auto",
   },
+  tab: {
+    fontFamily: "IRANSans",
+  },
 }));
 
 const Header = () => {
@@ -38,7 +41,7 @@ const Header = () => {
             onChange={handelTabsChange}
             className={classes.tabContainer}
           >
-            <Tab label="Home"></Tab>
+            <Tab className={classes.tab} label="Home"></Tab>
             <Tab label="Applicant"></Tab>
             <Tab label="About Us"></Tab>
             <Tab label="Contact Us"></Tab>
