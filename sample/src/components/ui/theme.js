@@ -1,8 +1,8 @@
 import { createMuiTheme } from "@material-ui/core";
-import { purple } from "@material-ui/core/colors";
+import { deepPurple } from "@material-ui/core/colors";
 
-export default createMuiTheme ({
-    palette: {
-        primary: purple
-    }
+export default createMuiTheme({
+  palette: {
+    primary: deepPurple,
+  },
 });
