@@ -7,5 +7,9 @@ export default createMuiTheme({
   },
   typography: {
     fontFamily: ["IRANSans", "Roboto"],
+    tab: {
+      fontFamily: "IRANSans",
+      textTransform: "none",
+    },
   },
 });
